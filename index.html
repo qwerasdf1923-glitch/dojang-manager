@@ -29,8 +29,8 @@ button {
   transition: 0.2s ease;
 }
 
-  button {
-  background: #d8b46a;
+button {
+  background: #DCE8F5;
   color: #111214;
   font-weight: 700;
 }
@@ -191,6 +191,20 @@ button[type="submit"] {
 #adminView h2,
 #adminView h3 {
   color: #111111 !important;
+}
+  /* 버튼 및 참가 종목 색상 통일 */
+#navParent,
+#navAdmin,
+#parentView .event {
+  background: #DCE8F5 !important;
+  color: #111214 !important;
+}
+
+/* 참가 종목 칸 안의 글자도 검정색으로 */
+#parentView .event strong,
+#parentView .event span,
+#parentView .event label {
+  color: #111214 !important;
 }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
